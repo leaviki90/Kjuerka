@@ -4,38 +4,36 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Your Comprehensive QA Hub',
+    Svg: require('@site/static/img/network.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        My goal is to create a central place where all aspects of QA (Quality Assurance) will be easily accessible. This site serves as a comprehensive resource for everything you need to know about software testing, from basic concepts to advanced techniques and tools, providing you with the information and tools you need in one place.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Learning, Discovering, and Connecting',
+    Svg: require('@site/static/img/learning.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        By visiting this site, users can expect not only to learn and find out the latest methods and practices in the QA world, but also to get to know me better through my articles, tutorials and personal stories. I strive for the site to be a space where you can grow as a professional, sharing knowledge and experience with a community that strives to improve the quality of software.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Technology That Brings the Site to Life',
+    Svg: require('@site/static/img/react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        This site was developed using the latest web development technologies, with React as the foundation. This allows me to provide a dynamic, interactive and user-friendly experience, with the flexibility to constantly expand and improve functionality. 
+revoke access.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
